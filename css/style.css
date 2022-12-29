@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#windowsXP {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.area-de-trabalho {
+    display: flex;
+    width: 100vw;
+    background: url('/img/941898.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.barra-de-tarefas {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 3.125rem;
+    background: linear-gradient(
+        to bottom,
+        #245edb 0%,
+        #0c8dea 9%,
+        #245edb 18%,
+        #245edb 92%,
+        #333 100%
+    );
+}
